@@ -1,0 +1,43 @@
+.publications-section {
+    margin: 1rem 0;
+    display: grid;
+    text-align: center;
+}
+
+.publications-section h1 {
+    font-size: var(--font-lg);
+    font-weight: var(--font-bold);
+    margin: 1rem 0;
+}
+
+.section-info {
+    border: 1px solid;
+    border-radius: 1rem;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    margin: 1rem 0;    
+}
+
+.section-info_img {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+
+.section-info_img img {
+    width: 100%;
+}
+
+.section-info_description label {
+    font-size: var(--font-md);
+    font-weight: var(--font-bold);
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 0;
+}
+
+.section-info_description p {
+    text-align: center;
+    padding: 0.52rem;
+    font-size: 12px;
+}
