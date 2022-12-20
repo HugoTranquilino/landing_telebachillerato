@@ -1,60 +1,106 @@
 import React from 'react';
-// import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Button, Card, Col, Row } from "react-bootstrap";
 import '../../assets/styles/publications.css'
 const photos2 = require.context('../../assets/images/otro', true );
 
 function Publications() {
   return (
-    <section className='publications-section'>
+    <section className="publications-section">
         <h1>Avisos</h1>
-        <Row>
-            <Col xs={6} md={2} lg={3} className='publications-section-item'>
-                <div className='section-info'>
-                    <div className='section-info_img'>
-                        <img src={photos2('./banner1.jpg')} alt='banner'/>
-                    </div>
-                    <div className='section-info_description'>
-                        <label>Lorem ipsum dolor sit amet</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus.</p>
-                    </div>
-                </div>
+        <Row className="publications-section-home">
+            <Col xs={8} md={6}>
+                <img className="img-principal" src={photos2('./banner1.jpg')} alt="imagen de anuncio"/>
             </Col>
-            <Col xs={6} md={2} lg={3} className='publications-section-item'>
-                <div className='section-info'>
-                    <div className='section-info_img'>
-                        <img src={photos2('./banner2.jpg')} alt='banner'/>
-                    </div>
-                    <div className='section-info_description'>
-                        <label>Lorem ipsum dolor sit amet</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus.</p>
-                    </div>
-                </div>
-            </Col>
-            <Col xs={6} md={2} lg={3} className='publications-section-item'>
-                <div className='section-info'>
-                    <div className='section-info_img'>
-                        <img src={photos2('./banner3.jpg')} alt='banner'/>
-                    </div>
-                    <div className='section-info_description'>
-                        <label>Lorem ipsum dolor sit amet</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus.</p>
-                    </div>
-                </div>
-            </Col>
-            <Col xs={6} md={2} lg={3} className='publications-section-item'>
-                <div className='section-info'>
-                    <div className='section-info_img'>
-                        <img src={photos2('./banner4.jpg')} alt='banner'/>
-                    </div>
-                    <div className='section-info_description'>
-                        <label>Lorem ipsum dolor sit amet</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus.</p>
-                    </div>
-                </div>
+            <Col xs={4} md={6}>
+                <label>algooo</label>
+                <p>lores aksdasdsjkdjsbdjbsdhvfsdfjbdfjsdjfsdbfsdnbfsdbf</p>
             </Col>
         </Row>
+        <div className="publications">
+            <Card >
+                <div className='imgage'>
+                    <Card.Img variant="top" src={photos2('./banner1.jpg')} />
+                </div>
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+
+            <Card >
+                <div className='imgage'>
+                    <Card.Img variant="top" src={photos2('./banner2.jpg')} />
+                </div>
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+
+            <Card >
+                <div className='imgage'>
+                    <Card.Img variant="top" src={photos2('./banner3.jpg')} />
+                </div>
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+
+            <Card >
+                <div className='imgage'>
+                    <Card.Img variant="top" src={photos2('./banner1.jpg')} />
+                </div>
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+
+            <Card >
+                <div className='imgage'>
+                    <Card.Img variant="top" src={photos2('./banner3.jpg')} />
+                </div>
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+
+            <Card >
+                <div className='imgage'>
+                    <Card.Img variant="top" src={photos2('./banner2.jpg')} />
+                </div>
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+        </div>
     </section>
   );
 }

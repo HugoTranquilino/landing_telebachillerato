@@ -12,6 +12,7 @@
   --red: #993929;
   --gray: #969799;
   --black: #272727;
+  --gray-secondary: #96979929;
 }
 
 body {
@@ -30,8 +31,12 @@ code {
     monospace;
 }
 
+section{
+  margin: 2rem 0;
+}
+
 footer {
-  background-color: var(--gray);
+  background-color: var(--gray-secondary);
   color: var(--black);
   padding: 1rem;
 }

@@ -8,6 +8,7 @@ import Publications from "../components/Publications/Publications";
 // import logo from './logo.svg';
 
 function App() {
+  const location = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929.9450512926742!2d-97.73419218816817!3d21.200888613150937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d9e3daa1f79433%3A0xa73fdb910de6d22c!2sTele%20bachillerato%20Cerro%20Azul!5e0!3m2!1ses!2smx!4v1671551314574!5m2!1ses!2smx"
   return (
     <div className="App">
       <header className="App-header">
@@ -27,6 +28,9 @@ function App() {
             <Col sm={8}>
               <div className='title'>
                 <label>Ubicación</label>
+              </div>
+              <div className="map">
+                <div dangerouslySetInnerHTML={{ __html: `<iframe src='${location}' width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />`}} />
               </div>
               <div className='item'>
                 <a
