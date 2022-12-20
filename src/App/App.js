@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import { Banner } from "../components/Banner/Banner";
+import { Information } from "../components/Information/Information";
 import { Menu } from "../components/menu/Menu";
 import Publications from "../components/Publications/Publications";
 // import logo from './logo.svg';
@@ -16,6 +17,7 @@ function App() {
       <main>
         <Banner/>
         <Container>
+          <Information />
           <Publications/>
         </Container>
       </main>
