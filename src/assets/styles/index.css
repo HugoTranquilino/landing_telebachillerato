@@ -1,6 +1,7 @@
 :root{
   /* fonts */
   --font-sm: 12px;
+  --font-rg:14px;
   --font-md: 16px;
   --font-lg: 24px;
 
@@ -26,13 +27,16 @@ body {
   font-size: var(--font-sm);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 section{
   margin: 2rem 0;
+}
+
+.menu {
+  font-size: var(--font-lg);
+}
+
+.educative-title a{
+  font-size: var(--font-lg);
 }
 
 footer {

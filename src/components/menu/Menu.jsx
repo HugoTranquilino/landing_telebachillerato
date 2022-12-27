@@ -10,7 +10,7 @@ function Menu() {
       <Container fluid>
         <Navbar.Brand href="#"></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse className="menu" id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
@@ -18,12 +18,11 @@ function Menu() {
           >
             <Nav.Link href="#action1">Inicio</Nav.Link>
             <Nav.Link href="#action2">Contactanos</Nav.Link>
-            <NavDropdown title="Oferta Educativa" id="navbarScrollingDropdown">
+            <NavDropdown className="educative-title" title="Oferta Educativa" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">economico - administrativo</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 quimico - biologico
               </NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
                 fisico - matematico
               </NavDropdown.Item>

@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .section-title h2 {
@@ -19,6 +20,9 @@
 }
 
 .info {
-    font-size: var(--font-sm);
+    font-size: var(--font-rg);
     margin: 1%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.11rem;
 }

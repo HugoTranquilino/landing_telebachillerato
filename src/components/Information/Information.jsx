@@ -15,10 +15,13 @@ function Information() {
                     </Col>
                     <Col className="info">
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing 
-                            and typesetting industry. Lorem Ipsum has been the industry's 
-                            standard dummy text ever since the 1500s, when an unknown printer 
-                            took a galley of type and scrambled it to make a type specimen book. 
+                            Formar alumnos críticos y propositivos,
+                            capaces de enfrentar con eficiencia, orgullo
+                            y dignidad los retos y demandas de la sociedad,
+                            a través de la implementación de un modelo
+                            pedagógico propio, que fomente el compromiso
+                            de los actores educativos con el entorno
+                            sociocultural. 
                         </p>
                     </Col>
                 </Col>
@@ -31,10 +34,13 @@ function Information() {
                     </Col>
                     <Col className="info">
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing 
-                            and typesetting industry. Lorem Ipsum has been the industry's 
-                            standard dummy text ever since the 1500s, when an unknown printer 
-                            took a galley of type and scrambled it to make a type specimen book. 
+                            Es una institución consolidada en su estructura,
+                            que ofrece un servicio de calidad, donde los
+                            actores educativos están comprometidos con su
+                            función en aras de una formación integral basada
+                            en valores, en el desarrollo de competencias
+                            y el uso de las tecnologías modernas de la 
+                            información y comunicación (TIC´S).
                         </p>
                     </Col>
                 </Col>

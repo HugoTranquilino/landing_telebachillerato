@@ -8,12 +8,18 @@ function Publications() {
     <section className="publications-section">
         <h1>Avisos</h1>
         <Row className="publications-section-home">
-            <Col xs={8} md={6}>
+            <Col xs={12} md={6}>
                 <img className="img-principal" src={photos2('./banner1.jpg')} alt="imagen de anuncio"/>
             </Col>
-            <Col xs={4} md={6}>
-                <label>algooo</label>
-                <p>lores aksdasdsjkdjsbdjbsdhvfsdfjbdfjsdjfsdbfsdnbfsdbf</p>
+            <Col xs={12} md={6}>
+                <label>Té ofrecemos</label>
+                <ul>
+                    <li>CENTRO DE COMPUTO</li>
+                    <li>ACTIVIDADES CULTURALES Y DEPORTIVAS</li>
+                    <li>INTERNET</li>
+                    <li>LABORATORIO</li>
+                    <li>ATENCION MEDICA GRATUITA IMSS</li>
+                </ul>
             </Col>
         </Row>
         <div className="publications">

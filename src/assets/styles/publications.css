@@ -10,6 +10,26 @@
     margin-bottom: 1rem;
 }
 
+.publications-section-home label {
+    font-size: var(--font-lg);
+    margin-bottom: 1rem;
+}
+
+.publications-section-home ul> li {
+    font-size: var(--font-md);
+    margin-bottom: 0.5rem
+}
+
+.btn-primary {
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+.btn-primary:active {
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
 .img-principal {
     width: 100%;
 }
