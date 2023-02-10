@@ -5,8 +5,9 @@
   --font-md: 16px;
   --font-lg: 24px;
 
-  --font-regular: 400;
   --font-light: 200;
+  --font-regular: 400;
+  --font-medium: 500;
   --font-bold: 700;
 
   /* colors */
@@ -53,6 +54,10 @@ footer label {
 footer a {
   text-decoration: none;
   color: var(--black);
+}
+
+.item-b{
+  font-weight: var(--font-medium);
 }
 
 .content {

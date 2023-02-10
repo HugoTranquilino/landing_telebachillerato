@@ -16,18 +16,10 @@ function Menu() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Inicio</Nav.Link>
+            {/* <Nav.Link href="#action1">Inicio</Nav.Link> */}
             <Nav.Link href="#action2">Contactanos</Nav.Link>
-            <NavDropdown className="educative-title" title="Oferta Educativa" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">economico - administrativo</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                quimico - biologico
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
-                fisico - matematico
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#">Publicaciones</Nav.Link>
+            <Nav.Link href="#educative">Oferta Educativa</Nav.Link>
+            <Nav.Link href="#">Avisos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
