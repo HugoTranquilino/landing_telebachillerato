@@ -6,7 +6,7 @@ const photos = require.context('../../assets/images/photos', true );
 function Banner() {
   return (
     <Carousel>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
           src={photos('./economico-administrativo.jpg')}

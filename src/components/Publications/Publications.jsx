@@ -1,7 +1,8 @@
 import React from 'react';
 import { Card, Col, Row } from "react-bootstrap";
 import '../../assets/styles/publications.css'
-const photos2 = require.context('../../assets/images/otro', true );
+// const photos2 = require.context('../../assets/images/otro', true );
+const publications_photos = require.context('../../assets/images/photos', true );
 
 function Publications() {
   return (
@@ -10,8 +11,8 @@ function Publications() {
             <h1>Avisos</h1>
         </div>
         <Row className="publications-section-home">
-            <Col xs={12} md={6}>
-                <img className="img-principal" src={photos2('./banner1.jpg')} alt="imagen de anuncio"/>
+            <Col xs={12} md={6} className="section-image">
+                <img className="img-principal" src={publications_photos('./student.jpg')} alt="imagen de anuncio"/>
             </Col>
             <Col xs={12} md={6}>
                 <h1>"Superación academia al alcance de tus manos"</h1>
@@ -27,7 +28,7 @@ function Publications() {
         <div className="publications">
             <Card >
                 <div className='imgage'>
-                    <Card.Img variant="top" src={photos2('./banner1.jpg')} />
+                    <Card.Img variant="top" src={publications_photos('./alumnos_01.jpg')} />
                 </div>
                 <Card.Body>
                     <Card.Title>Químico - Biológico</Card.Title>
@@ -40,7 +41,7 @@ function Publications() {
 
             <Card >
                 <div className='imgage'>
-                    <Card.Img variant="top" src={photos2('./banner2.jpg')} />
+                    <Card.Img variant="top" src={publications_photos('./alumnos_02.jpg')} />
                 </div>
                 <Card.Body>
                     <Card.Title>Físico - Matemático</Card.Title>
@@ -53,7 +54,7 @@ function Publications() {
 
             <Card >
                 <div className='imgage'>
-                    <Card.Img variant="top" src={photos2('./banner3.jpg')} />
+                    <Card.Img variant="top" src={publications_photos('./alumnos_03.jpg')} />
                 </div>
                 <Card.Body>
                     <Card.Title>Económico - Administrativo</Card.Title>

@@ -20,6 +20,11 @@
     margin-bottom: 0.5rem
 }
 
+.section-image{
+    margin: 0;
+    padding: 0;
+}
+
 .btn-primary {
     background-color: var(--red);
     border-color: var(--red);
